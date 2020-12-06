@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/miss.ekaterina/Desktop/untitled3/main.cpp
+pthread.h
+-
+semaphore.h
+-
+cstdlib
+-
+iostream
+-
+cstdio
+-
+unistd.h
+-
+ctime
+-
+
