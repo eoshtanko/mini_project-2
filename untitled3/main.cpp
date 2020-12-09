@@ -5,6 +5,7 @@
 #include <cstdio>
 #include <unistd.h>
 #include <ctime>
+#include <fcntl.h>
 
 // Штанько Екатерина Олеговна БПИ193 (Вариант 27) -> Вариант 5
 // (так как всего предложено 22 задачи)
