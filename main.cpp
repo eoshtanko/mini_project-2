@@ -165,6 +165,12 @@ int main(int argc, char *argv[]) {
         }
         int mNum = 0;
         Consumer((void *) &mNum);
+        
+        pthread_join(threadP, NULL);
+
+        for (int i = 0; i < n - 1; i++) {
+            pthread_join(threadC[i], NULL);
+        }
     }
     catch (const std::exception &e) {
         std::cout << e.what();
